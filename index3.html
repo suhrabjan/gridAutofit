@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Grid Autofit</title>
+    <style>
+        .container-1 {
+            font-family: Avenir, Roboto, Helvetica, san-serif;
+            font-size: 80%
+        }
+
+        .container-1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 10px;
+
+        }
+
+        .container-1 div {
+            border: 1px solid black;
+            border-radius: 1em;
+            padding: 2em;
+        }
+
+        button {
+            margin-top: auto;
+            background: teal;
+            color: white;
+            padding: 0.5em;
+            border: none;
+            border-radius: 1em;
+            font-size: 1.2em;
+            width: 50%;
+            cursor: wait;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <h3>Box One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="box-2">
+            <h3>Box Two</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="box-3">
+            <h3>Box Three</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="box-3">
+            <h3>Box Four</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button>BUY NOW</button>
+        </div>
+        <div class="box-3">
+            <h3>Box Five</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+</body>
+</html>
